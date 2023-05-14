@@ -1,0 +1,121 @@
+*{
+    margin:0;
+    padding: 0;
+}
+html,body{
+    height: 100%;
+}
+body{
+    background-image: linear-gradient(90deg,rgb(141, 205, 141),rgb(58, 108, 58),green);
+    
+}
+/*head*/
+header{
+    background-color: rgb(34, 77, 34);
+    height:10%;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-left: 1em;
+}
+#logo{
+    font-size: 2rem;
+    font-style:oblique;
+}
+#search{
+    margin-right: 2rem;
+    border: none;
+}
+#search input[type='text']{
+    border: none;
+    border-radius: 5px;
+    height: 2rem;
+    width: 15rem;
+    padding-left: 5px;
+}
+#search button{
+    padding: 5px;
+    background-color: transparent;
+    color: aliceblue;
+}
+#search button:hover{
+    background-color:rgb(131, 219, 131);
+}
+/* section */
+#middlesection{
+    display: flex;
+    justify-content: space-between;
+
+    height: 80%;
+}
+#allsurah{
+    background-color: transparent;
+    height: 100%;
+    width: 40%;
+    margin-top: 5rem;
+    margin-left: 3rem;
+    overflow: auto;
+    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.5);
+    border: none;
+    
+}
+#surahcontainer{
+    height: 110%;
+    display: flex;
+    flex-direction: column;
+    
+}
+.sura{
+    background-color: palegreen;
+    height:30%;
+    margin:2rem;
+    padding:10px;
+    border:none;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+    border-radius: 3rem;
+    margin-bottom: 3px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.sura:hover{
+    background-color: rgb(215, 237, 219);
+}
+/* aside */
+aside{
+    height:70%;
+    width: 40%;
+    background-color: white;
+    margin-top: 12rem;
+    margin-right: 3rem;
+    background-color: rgb(121, 177, 121);
+    border-radius: 6rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+#player{
+    
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 1.5rem;
+}
+#progressbar{
+    width: 35vw;
+    cursor: pointer;
+}
+/*foot*/
+#footer{
+    position: fixed;
+    bottom:0;
+    background-color: grey;
+    width: 100%;
+}
+i{
+    color: rgb(122, 121, 68);
+}
